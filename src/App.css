@@ -1,0 +1,167 @@
+.App {
+  text-align: center;
+}
+
+.crest {
+  margin-top: 5px;
+  margin-left: 1%;
+  height: 10em;
+  background-color: white;
+}
+
+.crest-img {
+  padding: 10px;
+  max-height: 100%;
+}
+
+h2.title {
+  margin: 0px;
+}
+
+h3.subTitle {
+  margin: 0px, 1em;
+}
+
+.App-header {
+  background-color: #162E56;
+  padding: 10px;
+  color: #F9F30A;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.siteBodyContainer {
+  margin: 0.5em 1% 3em 1%;
+}
+
+.siteBody {
+  padding: 0 20px;
+  background: #fff;
+  color: #333;
+  font: 1.156em/1.3 Gill Sans MT, Gill Sans, My Gill Sans, sans-serif;
+  font-size-adjust: 0.45;
+  
+  box-shadow: 0 .3em 1em #000;
+  min-height: 1200px;
+  max-width: 1500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.carousel-control.left, .carousel-control.right {
+  background-image: none
+}
+
+.carouselHost {
+  margin-bottom: 20px;
+}
+
+/* main page body posts */
+
+.bodyPost {
+  text-align: left;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  color: #333;
+  word-wrap: break-word;
+}
+
+.bodyPost h2 {
+  color:darkblue;
+}
+
+.bodyPost h4 {
+  color: slategrey;
+  font-size: 1.2rem;
+}
+
+.bodyPost hr {
+  clear: both;
+}
+
+/* .bodyPost p {
+}*/
+
+/* bulletin posts */
+
+.bulletinPost {
+  text-align: center;
+  font-size: 1.5rem;
+  line-height: 1.5;
+  color: #333;
+  word-wrap: break-word;
+}
+
+.bulletinPost h2 {
+  color:darkblue;
+}
+
+/* news carousel posts */
+
+.newsPost {
+  text-align: center;
+  font-size: 1.5rem;
+  line-height: 1.5;
+  color: #333;
+  word-wrap: break-word;
+}
+
+.newsPost h2 {
+  color:darkblue;
+}
+
+.postItem {
+  height: 15rem;
+}
+
+/* word press image alignment */
+
+.alignnone {
+  float: left;
+  margin-top: 5px;
+  margin-right: 20px;
+}
+
+.alignleft {
+  float: left;
+  margin-top: 5px;
+  margin-right: 20px;
+}
+
+.alignright {
+  float: right;
+  margin-top: 5px;
+  margin-left: 20px;
+}
+
+/* refresh overlay */
+
+.refreshOverlay {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: 1;
+  background-color: rgba(255, 255, 255, 0.95);
+  overflow-x: hidden;
+  padding-top: 150px;
+  display: none;
+}
+
+.container {
+  width: 100%;
+}
+
+img.size-medium {
+  width: 250px;
+  height: auto;
+}
+
+@media all and (min-width: 700px) {
+  img.size-medium {
+    width: 300px;
+    height: auto;
+  }
+}
+
